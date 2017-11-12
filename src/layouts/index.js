@@ -37,11 +37,7 @@ const Header = () => (
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-<<<<<<< HEAD
       title="Tal Williams"
-=======
-      title="Gatsby Default Starter"
->>>>>>> parent of d18fb35... title
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
