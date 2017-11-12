@@ -1,6 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Tal Williams`,
   },
-  plugins: [`gatsby-plugin-react-helmet`, `gatsby-plugin-emotion`],
+  plugins: [
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-emotion`,
+    `gatsby-plugin-manifest`,
+  ],
 }
