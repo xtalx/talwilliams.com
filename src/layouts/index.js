@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
-
+import favicon from '../images/favicon.ico'
 import './index.css'
 
 const Header = () => (
@@ -43,6 +43,7 @@ const TemplateWrapper = ({ children }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     >
+      <link rel="icon" href={favicon} />
       <html lang="en" />
     </Helmet>
     <Header />
