@@ -1,4 +1,5 @@
 import React from 'react'
+import '../layouts/index.css'
 
 const IndexPage = () => (
   <div css={{ marginTop: 168, textAlign: 'center' }}>
